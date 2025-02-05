@@ -1,0 +1,21 @@
+start -- 0x00004020
+end   -- 0x000042c0
+
+1 - 1024: code
+
+1024: a
+1025: b
+1026: c
+1027: d
+1028: s
+1029: ip
+1030: flag
+
+0x01 imm
+0x02 add
+0x08 stk
+0x40 stm
+0x80 ldm
+0x20 cmp
+0x10 jmp
+0x04 sys
